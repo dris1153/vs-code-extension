@@ -3,15 +3,15 @@
   "displayName": "dris-vs-pack",
   "publisher": "DrisVSCodePack",
   "description": "",
-  "version": "0.0.2",
-  "icon": "/assets/images/logo.png",
+  "version": "0.0.3",
+  "icon": "assets/images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/dris1153/vs-code-extension"
   },
   "scripts": {
     "build": "vsce package",
-    "publish": "vsce publish",
+    "release": "vsce publish",
     "login": "vsce login DrisVSCodePack"
   },
   "engines": {

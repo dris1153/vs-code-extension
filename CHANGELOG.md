@@ -22,5 +22,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Init package
 
-[0.0.2]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.1...v0.0.2
-[0.0.1]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v0.0.1
+[Unreleased]: https://github.com/dris1153/vs-code-extension/releases/tag/0.0.3
+[0.0.2]: https://github.com/dris1153/vs-code-extension/tree/main
+[0.0.1]: https://github.com/dris1153/vs-code-extension/tree/main
