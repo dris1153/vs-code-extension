@@ -1,0 +1,37 @@
+{
+  "name": "dris-vs-pack",
+  "displayName": "dris-vs-pack",
+  "publisher": "DrisVSCodePack",
+  "description": "",
+  "version": "0.0.2",
+  "icon": "/assets/images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dris1153/vs-code-extension"
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish",
+    "login": "vsce login DrisVSCodePack"
+  },
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "eamodio.gitlens",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "PulkitGangwar.nextjs-snippets",
+    "dsznajder.es7-react-js-snippets",
+    "cweijan.vscode-database-client2"
+  ],
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
